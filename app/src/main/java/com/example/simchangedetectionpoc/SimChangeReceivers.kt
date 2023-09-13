@@ -4,6 +4,7 @@ import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import android.util.Log
+import android.widget.Toast
 
 class SimChangeReceivers: BroadcastReceiver() {
     private val TAG = "SimChangeReceivers"
@@ -15,6 +16,9 @@ class SimChangeReceivers: BroadcastReceiver() {
             state = p1.extras?.getString("ss").toString()
         }
         Log.i(TAG, "SIM State Change Detected $state")
+
         // State can be ABSENT | READY | LOADED
+
+        Toast.makeText(p0, "Broadcast SIM State Change Detected - $state", Toast.LENGTH_SHORT).show()
     }
 }
