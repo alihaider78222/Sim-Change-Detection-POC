@@ -13,9 +13,9 @@ This Android Kotlin application is designed to detect SIM card changes in your m
 ## Screenshots
 
 <p float="left">
-  <img src="./assets/Screenshot_1.png" alt="image" width="300" height="auto" >
-<img src="./assets/Screenshot_2.png" alt="image" width="300" height="auto">
-<img src="./assets/Screenshot_3.png" alt="image" width="300" height="auto">
+  <img src="./assets/Screenshot_1.png" alt="image" width="220" height="auto" >
+<img src="./assets/Screenshot_2.png" alt="image" width="220" height="auto">
+<img src="./assets/Screenshot_3.png" alt="image" width="220" height="auto">
 </p>
 
 <br>
