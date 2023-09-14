@@ -91,7 +91,6 @@ class MainActivity : ComponentActivity() {
                                     ) != PackageManager.PERMISSION_GRANTED
                                 ) {
                                     Toast.makeText(context, "Permission not granted", Toast.LENGTH_SHORT).show()
-                                //            return@setOnClickListener
                                 }
                                 saveSimDataInSharedPreferences(context)
                             },
@@ -144,8 +143,6 @@ private fun setUpViews( context: Context) {
     val simData = sharedPreferences.getStringSet("simData", setOf())
     if (simData != null) {
         if (simData.isNotEmpty() && simData.size >= 1) {
-//            binding.btnLogin.visibility = View.GONE
-//            binding.tickMark.visibility = View.VISIBLE
         }
     }
 }
